@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.google-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+
+}
+.search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    max-width: 90%;
+    margin: auto;
+    padding: 2px;
+    
+    
+}
+.search-box input {
+    width: 18.5%;
+    height: 20px;
+}
+.search-box button {
+    padding: 1px 6px;
+}
+footer { 
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 2px;
+    font-size: 13px;
+}
+.special-searches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7EE5DA;
+    width: 50%;
+    margin-right: 2px;
+    justify-content: center;
+    
+}
+.help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #70CCC2;
+    width: 25%;
+    margin-right: 2px;
+    justify-content: center;
+    
+}
+.get {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #62B3AA;
+    width: 58%;
+    display: flex;
+    padding-bottom: 1px;
+
+}
+.get-row { 
+    display: flex;
+}
+
